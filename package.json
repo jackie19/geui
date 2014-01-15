@@ -1,0 +1,28 @@
+{
+    "name"       : "geui",
+    "version"    : "0.0.16",
+    "description": "gleasy ui tools",
+    "main"       : "./lib/index.js",
+    "bin": {
+        "geui": "./bin/geui.js"
+    },
+    "scripts"    : {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository" : "",
+    "keywords"   : [
+        "gleasy ui"
+    ],
+    "bugs": {
+        "url": "https://github.com/jackie19/geui/issues"
+    },
+    "devDependencies": {
+        "uglify-js": "~2.4.8",
+        "ispriter": "~0.3.6",
+        "nopt": "~1.0.10",
+        "resolve": "~0.3.1",
+        "chokidar":"~0.8.1"
+    },
+    "author"     : "jackie@gleasy.net",
+    "license"    : "BSD"
+}
