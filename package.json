@@ -20,7 +20,7 @@
         "uglify-js": "~2.4.8",
         "ispriter": "~0.3.6",
         "nopt": "~1.0.10",
-        "resolve": "~0.3.1",
+        "less": "~1.5.1",
         "chokidar":"~0.8.1"
     },
     "author"     : "jackie@gleasy.net",
