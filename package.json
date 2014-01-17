@@ -1,6 +1,6 @@
 {
     "name"       : "geui",
-    "version"    : "0.0.16",
+    "version"    : "0.0.18",
     "description": "gleasy ui tools",
     "main"       : "./lib/index.js",
     "bin": {
@@ -18,7 +18,7 @@
     },
     "devDependencies": {
         "uglify-js": "~2.4.8",
-        "ispriter": "~0.3.6",
+        "ispriter": "git@github.com:iazrael/ispriter.git",
         "nopt": "~1.0.10",
         "less": "~1.5.1",
         "chokidar":"~0.8.1"

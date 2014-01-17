@@ -6,14 +6,14 @@ var options = {
 
     "options": {
         "isUglify": true,//是否合并压缩js
-        "isLabjs": true,//
+        "isLabjs": true,//替换 labjs 依赖
         "isLess": true,//是否使用less
         "isSprite": true//是否合并图片精灵
     },
 
     /*
      * js合并压缩:
-     * 可以分多个模块
+     * 可分多个模块
      * @type: Array
      * @example
      * "build: [
@@ -105,9 +105,9 @@ var options = {
          * 支持 ant 风格
          * @type: String|Array
          * @example
-         * "input": "less/"
-         * "input":  ["less/"]
-         * "input":  ["less/e*.less"]
+         * "src": "less/"
+         * "src":  ["less/"]
+         * "src":  ["less/e*.less"]
          * */
         "src": "less/*.less",
 
@@ -134,7 +134,7 @@ var options = {
             "imageDist": "images/",//optional 生成的精灵图相对于 cssDist 的路径
             "maxSize": 0,//optional 图片容量的最大大小, 单位 KB, 默认 0
             "margin": 12,//optional 合成之后, 图片间的空隙, 默认 0
-            "prefix": "sprite_",//optional 精灵图前缀, sprite_exam.png
+            "prefix": "sprite_",//optional 精灵图前缀, sprite_[css文件名].png
             "combine": "exam.css",//所有 css 文件合并为一个文件
             "compress": true//是否压缩 css 文件
         }
