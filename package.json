@@ -1,6 +1,6 @@
 {
     "name"       : "geui",
-    "version"    : "0.0.18",
+    "version"    : "0.0.19",
     "description": "gleasy ui tools",
     "main"       : "./lib/index.js",
     "bin": {
@@ -16,11 +16,11 @@
     "bugs": {
         "url": "https://github.com/jackie19/geui/issues"
     },
-    "devDependencies": {
+    "dependencies": {
         "uglify-js": "~2.4.8",
-        "ispriter": "git@github.com:iazrael/ispriter.git",
+        "ispriter": "~0.3.6",
         "nopt": "~1.0.10",
-        "less": "~1.5.1",
+        "less": "=1.5.1",
         "chokidar":"~0.8.1"
     },
     "author"     : "jackie@gleasy.net",
