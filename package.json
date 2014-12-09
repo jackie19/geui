@@ -1,6 +1,6 @@
 {
     "name"       : "geui",
-    "version"    : "0.0.19",
+    "version"    : "0.0.20",
     "description": "gleasy ui tools",
     "main"       : "./lib/index.js",
     "bin": {
@@ -17,7 +17,7 @@
         "url": "https://github.com/jackie19/geui/issues"
     },
     "dependencies": {
-        "uglify-js": "~2.4.8",
+        "uglify-js": "~2.4.15",
         "ispriter": "~0.3.6",
         "nopt": "~1.0.10",
         "less": "=1.5.1",
